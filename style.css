@@ -1,0 +1,271 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: black;
+  color: white !important;
+  line-height: 1 !important;
+}
+
+#b1:active {
+  background-color: orangered;
+}
+#b1:visited {
+  background-color: grey;
+}
+#b2:active {
+  background-color: orangered;
+}
+#b2:visited {
+  background-color: grey;
+}
+#b3:active {
+  background-color: orangered;
+}
+#b3:visited {
+  background-color: grey;
+}
+#b4:active {
+  background-color: orangered;
+}
+#b4:visited {
+  background-color: grey;
+}
+#larrow:active {
+  color: orangered;
+}
+#rarrow:active {
+  color: orangered;
+}
+#work:active {
+  color: orangered;
+}
+#services:active {
+  color: orangered;
+}
+#ventures:active {
+  color: orangered;
+}
+#about:active {
+  color: orangered;
+}
+#contact:active {
+  color: orangered;
+}
+#blog:active {
+  color: orangered;
+}
+
+/*
+CSS for different fonts - sizes and colors
+*/
+.text-8 {
+  font-size: 8px;
+}
+.text-9 {
+  font-size: 9px;
+}
+.text-10 {
+  font-size: 10px;
+}
+.text-16 {
+  font-size: 16px;
+}
+.text-18 {
+  font-size: 18px;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-24 {
+  font-size: 24px;
+}
+.text-30 {
+  font-size: 30px;
+}
+.text-bold {
+  font-weight: 500;
+}
+.text-red {
+  color: orangered;
+}
+.text-grey {
+  color: grey;
+}
+.text-teal {
+  color: lightseagreen;
+}
+.font-myriad {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+.font-arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/*
+CSS for different margins / paddings
+*/
+.mt-6 {
+  margin-top: 6rem !important;
+}
+.mt-22 {
+  margin-top: 22rem !important;
+}
+.ml-6 {
+  margin-left: 6rem !important;
+}
+.ml-2r {
+  margin-left: 2rem !important;
+}
+.ml-7r {
+  margin-left: 17rem !important;
+}
+.mr-24r {
+  margin-right: 30rem !important;
+}
+.margin-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.pt-015 {
+  padding-top: 0.15em;
+}
+.h-5 {
+  height: 5px;
+}
+.h-15 {
+  height: 15px;
+}
+
+/*
+CSS for opacities
+*/
+.opacity-80 {
+  opacity: 0.80;
+}
+.opacity-25 {
+  opacity: 0.25;
+}
+
+/*
+CSS for top navigation banner
+*/
+.banner-dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+}
+.banner-arrow {
+  color: white;
+
+}
+.plus-sign {
+  background-color: orangered;
+  padding: 3px;
+}
+.twitter {
+  color: lightseagreen;
+  background-color: #353535;
+  padding: 5px 0 5px 0;
+}
+.twitter img{
+  height: 10px;
+  width: 15px;
+}
+.top-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+.center-top-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100%;
+}
+
+/*
+CSS for image banner
+*/
+.banner-container {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  /* height: 340px; */
+}
+.banner-text {
+  color: red !important;
+  position: absolute;
+  top: 0;
+}
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+#logo {
+  height: 15px;
+}
+.banner-bottom{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/*
+CSS for body (under banner)
+*/
+.body-container {
+  position: absolute;
+  margin-top: 340px;
+  left: 0;
+  width: 100%;
+  background-color: #201C1C;
+}
+.center-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.logo {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+}
+.caption {
+  display: block;
+}
+.sm-img {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="style.css" rel="stylesheet">
+  <script type="text/javascript" src="envoy.js"></script>
+  <link href="bootstrap-4.1.3-dist/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body onload = "startTimer()">
+  <!--Banner and nav bar-->
+  <div class="banner-container">
+    <div class="container">
+      <img src="images/djangounchained.png" id="img" alt="bannerimg" class="center-img">
+      <div class="banner-bottom mt-22 mr-24r">
+        <a class="banner-dot" id="b1" onclick="changeBanner('banner1')"></a>
+        <a class="banner-dot ml-1" id="b2" onclick="changeBanner('banner2')"></a>
+        <a class="banner-dot ml-1" id="b3" onclick="changeBanner('banner3')"></a>
+        <a class="banner-dot ml-1" id="b4" onclick="changeBanner('banner4')"></a>
+        <a class="banner-arrow ml-7r text-24" id="larrow" onclick="displayPreviousImage()"><</a>
+        <a class="banner-arrow ml-3 text-24" id="rarrow" onclick="displayNextImage()">></a>
+      </div>
+      <!-- <div class="banner-text mt-6 ml-5 text-30 font-myriad">
+        <div>THE IPHONE</div>
+        <div>UNCHAINED.</div>
+        <div class="text-9 text-grey font-arial">
+          <div>Tarantino's outrageous film Django Unchained</div>
+          <div>needed an equally in your face mobile experience.</div>
+          <div>Bloody good awesomeness ensued.
+            <span class="text-red">View Project</span>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <div class="top-banner opacity-80">
+      <div class="center-top-text">
+        <div class="row">
+          <div class="col-8">
+            <img src="images/ENVOY_LOGO.png" alt="logo" id="logo">
+            <span class="text-8">
+              <a onclick="here()" class="margin-5" id="work">Work</a>
+              <a onclick="here()" class="margin-5" id="services">Services</a>
+              <a onclick="here()" class="margin-5" id="ventures">Ventures</a>
+              <a onclick="here()" class="margin-5" id="about">About</a>
+              <a onclick="here()" class="margin-5" id="contact">Contact</a>
+              <a onclick="here()" class="margin-5" id="blog">Blog</a>
+            </span>
+          </div>
+          <div class="col-4 mt-1">
+            <span class="text-8 pl-1 pr-1 pb-1 pull-right">
+              <span class="twitter">
+                <img src="images/twitter.png" alt="twitter">
+                Tweet. Tweet.
+              </span>
+              <img src="images/PLUS.png" alt="plus" class="plus-sign h-20">
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Body of page (under banner)-->
+  <div class="body-container">
+    <div class="center-body">
+      <div class="row">
+        <span class="text-18 text-bold pt-4">
+          An independent full service creative agency helping brave brands build businesses
+          and be heard in a world full of noise.
+          <span class="text-red">
+            We are Envoy.
+          </span>
+        </span>
+      </div>
+      <hr class="opacity-25">
+      <div class="row pt-3">
+        <span class="text-10 text-grey text-bold pl-1 pr-1">
+          Featured Work
+        </span>
+        <span class="text-8 text-red margin-5 pt-015">
+          View All Work
+        </span>
+      </div>
+      <!--Row with images-->
+      <div class="row text-bold">
+        <div class="col pl-1 pr-1">
+          <div class="logo">
+            <img src="images/boost.png" alt="img1" class="sm-img">
+            <div class="caption text-10">
+              <div class="pt-3 pb-1">
+                Boost Mobile
+                <span class="text-teal">Rebrand</span>
+              </div>
+              <span class="text-grey text-8 pt-3">
+                Boost Mobile recognized the need to elevate and refresh its brand to speak
+                to a broader audience. The result was an evolved logo, ...
+                <div class="text-red pt-2">View Project</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col pl-1 pr-1">
+          <div class="logo">
+            <img src="images/pear.png" alt="img1" class="sm-img">
+            <div class="caption text-10">
+              <div class="pt-3 pb-1">
+                Pear Sports
+                <span class="text-teal">Training Portal</span>
+              </div>
+              <span class="text-grey text-8">
+                Pear Sports revolutionary training systems and fitness apps were getting lost
+                in a crowded marketplace. Envoy rebuilt the story and ...
+                <div class="text-red pt-2">View Project</div>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col pl-1 pr-1">
+          <div class="logo">
+            <img src="images/511.png" alt="img1" class="sm-img">
+            <div class="caption text-10">
+              <div class="pt-3 pb-1">
+                5.11
+                <span class="text-teal">Ultimate Training Experience</span>
+              </div>
+              <span class="text-grey text-8">
+                5.11, the industry leader in tactical gear turned to Envoy to bring their
+                "Ultimate Training Challenge" to life in the digital space ...
+                <div class="text-red pt-2">View Project</div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Row with headlines-->
+      <div class="row pt-5">
+        <span class="text-10 text-grey text-bold">
+          Wire
+        </span>
+        <span class="text-8 text-red margin-5 pt-015">
+          View All News
+        </span>
+      </div>
+      <div class="row text-bold pt-3">
+        <div class="col pl-1 pr-1">
+          <div class="text-20">
+            The Weinstein Co Lets Envoy Loose on Sin City 2
+          </div>
+          <div class="text-8 text-grey pt-1">
+            May 1, 2013
+          </div>
+          <div class="text-8 text-red pt-1">
+            Read More
+          </div>
+        </div>
+        <div class="col pl-1 pr-1">
+          <div class="text-20">
+            5.11 Taps Envoy as New Digital Agency
+          </div>
+          <div class="text-8 text-grey pt-1">
+            May 1, 2013
+          </div>
+          <div class="text-red text-8 pt-1">
+            Read More
+          </div>
+        </div>
+        <div class="col pl-1 pr-1 pb-5">
+          <div class="text-20 text-teal">
+            Pear Breaks Ground on Ground Breaking App
+          </div>
+          <div class="text-8 text-grey pt-1">
+            May 1, 2013
+          </div>
+          <div class="text-red text-8 pt-1">
+            Read More
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
